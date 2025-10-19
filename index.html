@@ -185,7 +185,74 @@ body {
         @keyframes heartFloat { 0% { transform: rotate(-45deg) translateY(0) scale(0.8); opacity: 0; } 20% { opacity: 0.7; } 100% { transform: rotate(-45deg) translateY(-100vh) scale(1.2); opacity: 0; } }
         
         .not-loaded * { animation-play-state: paused !important; }
-        @media (max-width: 768px) { .photo-frame { width: 100px !important; height: 100px !important; } .happy-woman-day { font-size: 28px; } }
+        @media (max-width: 768px) { .photo-frame { width: 100px !important; height: 100px !important; } .happy-woman-day { font-size: 28px; } 
+   
+   .happy-woman-day { 
+    font-size: 20px !important;
+    top: 30px !important;
+    padding: 0 10px;
+    line-height: 1.3;
+    width: 90%;
+  }
+  .photo-frame { 
+    width: 80px !important; 
+    height: 80px !important;
+    padding: 5px;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+  }
+  
+  .photo-1 { top: 15% !important; left: 5% !important; }
+  .photo-2 { top: 50% !important; left: 3% !important; }
+  .photo-3 { top: 15% !important; right: 5% !important; }
+  .photo-4 { top: 50% !important; right: 3% !important; }
+   .flowers {
+    transform: scale(0.6);
+    transform-origin: bottom center;
+  }
+  
+  .flower__line {
+    height: 40vmin !important;
+  }
+  
+  .long-g {
+    transform: scale(0.5) !important;
+  }
+   .moon {
+    width: 50px;
+    height: 50px;
+    top: 8%;
+    right: 10%;
+  }
+
+
+.butterfly {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .butterfly::before,
+  .butterfly::after {
+    width: 15px;
+    height: 22px;
+  }
+ .heart {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .heart::before,
+  .heart::after {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .sparkle {
+    width: 3px;
+    height: 3px;
+  }
+
+      }
+      
 
 @keyframes titleFloat {
   0%, 100% { transform: translateX(-50%) translateY(0px); }
